@@ -15,7 +15,7 @@ form.addEventListener('submit', (e) => {
 
     let carregando = `<p> Um momento ...</p>`;
 
-    let parabens = `<p>Parabéns !!! agora você vai economizar,<br>
+    let parabens = `<p>Parabéns !!! agora você vai economizar<br>
                         e arrasar na cozinha. </p>`;
     tankyou.innerHTML = carregando; 
 
