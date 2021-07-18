@@ -76,6 +76,7 @@ img{
     background-attachment: fixed;
     background-size: contain;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .card-container{
@@ -87,15 +88,19 @@ img{
     width: 350px;
     max-height: 120px;
     border: solid 5px #ff6600;
-   
+    margin-right: 20px;
 }
 .cadastre-se{
     text-align: left;
     padding-right: 30px;
     padding-left: 10px;
     font-size:25px;
-    letter-spacing: 1px;
+    
 }
+.cadastre{
+    line-height: 1.5;
+}
+
 form{
     display: grid;
 }
@@ -121,7 +126,7 @@ footer{
     padding-bottom: 50px;
 }
 .text-footer{
-   padding: 30px 0 0 20px;
+   padding: 30px 40px 0 20px;
    line-height: 1.5;
 }
 .div-icone{
@@ -187,6 +192,7 @@ footer{
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
+        padding-bottom: 30px;
     }
 
     .cadastre-se{
@@ -198,19 +204,31 @@ footer{
     }
 
     .card-container{
+        display: flex;
         border: none;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #tankyou{
+        border: solid 5px #f60;
+        border-radius: 25px;
+        padding: 20px;
     }
 
     input{
         width: auto;
     }
 
+
     .text-footer{
-        padding: 30px 0 0 20px;
+        padding: 20px 0 0 20px;
         line-height: 1.5;
+        text-align: center;
     }
 
     .div-icone{
+        padding-top: 10px;
         padding-right: 60px;
     }
 
